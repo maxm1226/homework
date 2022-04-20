@@ -10,7 +10,6 @@
     <p><a href="./ex1.php" target="main">題目一：亂數陣列排序</a></p>
     <p><a href="./ex2.php" target="main">題目二：阿拉伯數字轉成國字</a></p>
     <p><a href="./ex3.php" target="main">題目三：尋找質數程式</a></p>
-    <p><a href="./ex3.php" target="main">題目4：尋找質數程式</a></p>
 
     <iframe id="main" name="main" src="main.html" frameborder="1" width="1024" height="768" border="1"></iframe>
 
