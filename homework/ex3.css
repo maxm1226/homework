@@ -1,0 +1,45 @@
+.t1{
+    color: rgb(5, 10, 255);
+    
+}
+
+.t2{
+    color: rgb(69, 72, 253);
+    font-size: 18px;
+}
+.t3{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.t4{
+    color: rgb(2, 127, 177);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 115, 255);
+    border-color: rgb(65, 94, 255);
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
+#button:hover{
+    background-color: rgb(241, 186, 119);
+    border-color: rgb(247, 164, 62);
+}
+#button:focus, #button.focus {
+    color: #fff;  
+    box-shadow: 0 0 0 0.2rem rgba(255, 179, 80, 0.5);
+}
+#button.disabled, #button:disabled {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+  } 
+  #button.disabled, #button:disabled {
+    color: #fff;
+    background-color: orange;
+    border-color: rgb(1, 225, 255);
+  } 
