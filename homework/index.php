@@ -15,6 +15,5 @@
     <p><a href="./ex3.php" target="main"><li>題目三：尋找質數程式</li></a></p>
     </ul>
     <iframe id="main" name="main" src="main.html" frameborder="1" width="1024" height="768" border="1"></iframe>
-
 </body>
 </html>
