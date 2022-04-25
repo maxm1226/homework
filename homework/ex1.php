@@ -7,7 +7,7 @@
     <title>作業一:陣列排序程式</title>
 </head>
 <body>
-<form action="homework.php" method="post" name="form1" id="form1">
+<form action="ex1.php" method="post" name="form1" id="form1">
         <p>陣列排序程式:</p>
         <p>亂數產生5000陣列:</p>
         <p>設定排序方式
