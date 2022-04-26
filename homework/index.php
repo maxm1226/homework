@@ -10,7 +10,8 @@
 <body>
     <div style="background-color: rgb(1, 225, 255);"><h1>php互動式程式設計作業</h1></div>
     <ul>
-    <p><a href="./ex1.php" target="main"><li>題目一：亂數陣列排序</li></a></p>
+    <p><a href="./ex1.php" target="main"><li>題目一：亂數陣列排序 by kevin</li></a></p>
+    <p><a href="./ex1-yun.php" target="main"><li>題目一：亂數陣列排序 by jen</li></a></p>
     <p><a href="./ex2.php" target="main"><li>題目二：阿拉伯數字轉成國字</li></a></p>
     <p><a href="./ex3.php" target="main"><li>題目三：尋找質數程式</li></a></p>
     </ul>
