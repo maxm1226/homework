@@ -20,12 +20,12 @@
         <p><input type="submit" name="button" id="button" value="開始排序"></p>
     </form>
     <?php
-    ini_set("error_reporting" , "E_ALL & ~E_NOTICE");
-    if(isset($_POST['MM_form'])and $_POST['MM_form']=='form1'){
+       ini_set("error_reporting" , "E_ALL & ~E_NOTICE");
+    if(isset($_POST['MM_form']) and $_POST['MM_form']=='form1'){
         for($i=0;$i<5000;$i++){
             $data[$i]=rand(1,100000);
         }
-        echo "<p>排序前內容: ";
+        echo "<p>排序前內容 : ";
         print_r($data);
         echo "</p>";
 
