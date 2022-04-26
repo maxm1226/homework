@@ -51,11 +51,11 @@
                         if($arr[$k] > $arr[$j]){   //大排到小
                             list($arr[$j] , $arr[$k]) =array($arr[$k],$arr[$j]);
                         }
-                    }
+                    
                 }
             }
-            return $arr ;
         }
+        return $arr ;
     }
     ?>
 </body>
