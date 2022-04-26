@@ -41,21 +41,21 @@
     }
     function bubble_sort( $arr,$mod=1) {
         $size = count($arr)-1;
-        for($i=0; $i<$size;$i++) {
-            for ($j=0;$j<$size-$i; $j++) {
+        for($i=0; $i<$size;$i++){
+            for ($j=0;$j<$size-$i; $j++){
                 $k=$j+1;
                 if($mod==1) {
-                    if ($arr[$k] < $arr[$j]) {     //小排到大
+                    if ($arr[$k] < $arr[$j]) { //小排到大
                         list($arr[$j] , $arr[$k]) =array($arr[$k], $arr[$j]);
-                    }else {
-                        if($arr[$k] > $arr[$j]){   //大排到小
-                            list($arr[$j] , $arr[$k]) =array($arr[$k],$arr[$j]);
-                        }
-                    
+                    }
+                }else {
+                    if($arr[$k] > $arr[$j]) {//大排到小 
+                        list($arr[$j] , $arr[$k]) =array($arr[$k],$arr[$j]);
+                    }            
                 }
             }
         }
-        return $arr ;
+                return $arr ;
     }
     ?>
 </body>
